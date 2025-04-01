@@ -1,0 +1,38 @@
+@font-face{ font-family: Daikon; src: url('Daikon-SemiBold.ttf'); }
+@font-face{ font-family: Carmen; src: url('Carmen\ Sans\ Bold.otf'); } 
+body{
+    font-family: Daikon;
+    margin: 20px;
+    color: #ffffff;
+    background-image: url(/img.png);
+    background-size: 100% 100%;
+}
+form{
+    width: 500px;
+    padding: 20px;
+    border: 3px solid #f44a6f;
+    color: white;
+    background-color: #ee2651;
+    font-family: Carmen;
+}
+label, input, button{
+    display: block;
+    margin-bottom: 10px;
+}
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.radio-group label{
+    margin-right: 15px;
+}
+.yap{
+    width: 540px;
+}
+button{
+    border: 3px solid #f44a6f;
+    border-radius: 10px;
+    font-family: Daikon;
+    color: #444444;
+}

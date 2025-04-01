@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FA3</title>
+    <link rel="stylesheet" href="FA1.css">
+</head>
+<body>
+    <h1>Teach for the Philippines Sign-up Form</h1>
+    <div class="yap">
+    <h2>Why Sign Up?</h2>
+    <p>The Teach for the Philippines organization aims to improve the quality of teachers,
+    as well as addressing education challenges at the system-level. The reason I chose this
+    organization is because they have a cause that lets them support our fellow students with their 
+    3 core programs, which are Fellowship Program, Ambassadors Program, and the Public School Teacher 
+    Pathways. Each of which tackle various issues about our current education system in the Philippines 
+    in hopes of making public education more accessible and high quality. Additionally, they also
+    help teachers with these aforementioned programs, allowing them to help even more students. And lastly,
+    they are a non profit organization, which means that all of their donations go into their cause
+    and programs.
+    </p>
+    </div>
+    <form name="signupForm" onsubmit="return validateForm()">
+        <label for="firstName">First Name (required):</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name (required):</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label>Sex (required):</label>
+        <div class="radio-group">
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="preferNotSay" name="sex" value="preferNotSay">
+            <label for="preferNotSay">Prefer not to say</label>
+        </div>
+        
+        <label for="email">Email Address (required):</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="contact">Contact Number (optional):</label>
+        <input type="text" id="contact" name="contact">
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+<script src="FA1.js"></script>
+</html>
